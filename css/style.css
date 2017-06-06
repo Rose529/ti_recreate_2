@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+body {
+	padding-top: 50px;
+	background-color: #2B4653;
+}
+
+h1 {
+	text-align: center;
+	background-color: #2B4653;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+
+.banner {
+	display: flex;
+	background: #2B4653;
+	min-height: 50px;
+	overflow: hidden;
+	font-family: 'Oswald', sans-serif;
+	height: 50px;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+/*.banner a {
+	color:;
+}*/
+
+.banner-list {
+	display: flex;
+	list-style: none;
+	/*margin-left: auto;*/
+}
+
+.banner-list li {
+	margin: 0px 15px;
+
+}
+
+.banner-list a {
+	color: #fff;
+	text-decoration: none;
+	padding: 200px;
+}
+
+.bg-full-screen {
+	height: 150px;
+	display: flex;
+	width: 100%;
+	background-image: url("../images/bg-galaxy.jpeg");/* adds image */
+	background-position: center;
+	justify-content: center; 
+	align-items: center; 
+	color: #fff;
+}
+
+.row {
+	display: flex;
+
+
+}
+
+img {
+	margin: auto;
+	display: block;
+	width: 55%;
+	border-radius: 23%;
+	border-style: double;
+	border: 7px solid #2B4653;
+
+}
+
+.col {
+	flex: 1;
+	/*height: 600px;*/
+	padding: 10px;
+	margin: 1%;
+	background: #A9ADB5;
+}
+
+.copy {
+	text-align: center;
+}
+
